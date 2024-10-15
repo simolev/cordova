@@ -2,6 +2,8 @@
 ---
 Use docker to build cordova applications. For local development, testing, CI/CD...
 
+## Forked from:
+https://github.com/hamdifourati/cordova-android-builder
 
 ## Docker repository
 https://hub.docker.com/r/hamdifourati/cordova-android-builder/
@@ -10,11 +12,12 @@ https://hub.docker.com/r/hamdifourati/cordova-android-builder/
 - Docker
 
 ## Installed dependencies
-- NodeJS v20 LTS
+- NodeJS
 - Cordova v12.0.0
 - Android Platform Tools
-- Android Build Tools 33.0.2
-- Android 33
+- Android Build Tools
+  https://developer.android.com/tools/releases/build-tools
+- Android 34
 
 ## How to
 ## Pull image from Docker hub
@@ -31,7 +34,7 @@ docker run -v <local-app-src>:/opt/src --rm hamdifourati/cordova-android-builder
 ```
 
 ## Interactive shell
-> Run a shell inside the conatiner
+> Run a shell inside the container
 ```
 docker run -it -v <local-app-src>:/opt/src --rm hamdifourati/cordova-android-builder bash
 
