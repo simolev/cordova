@@ -17,7 +17,7 @@ https://hub.docker.com/r/hamdifourati/cordova-android-builder/
 - Android Platform Tools
 - Android Build Tools
   https://developer.android.com/tools/releases/build-tools
-- Android 34
+- Android 35
 
 ## How to
 ## Pull image from Docker hub
