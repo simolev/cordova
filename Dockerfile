@@ -4,13 +4,13 @@ FROM eclipse-temurin:${OPENJDK_VERSION}-jdk-jammy
 
 # Reference default value
 ARG OPENJDK_VERSION
-#https://github.com/nodesource/distributions/blob/master/README.md
+# https://github.com/nodesource/distributions/blob/master/README.md
 ARG NODEJS_VERSION=24
-#https://gradle.org/releases/
+# https://gradle.org/releases/
 ARG GRADLE_VERSION=9.2.0
-#https://www.npmjs.com/package/cordova?activeTab=versions
-ARG CORDOVA_VERSION=12.0.0
-#https://developer.android.com/studio#command-tools
+# https://www.npmjs.com/package/cordova?activeTab=versions
+ARG CORDOVA_VERSION=13.0.0
+# https://developer.android.com/studio#command-tools
 ARG ANDROID_CMDTOOLS_VERSION=13114758
 
 
